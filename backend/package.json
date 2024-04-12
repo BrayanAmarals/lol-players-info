@@ -1,0 +1,22 @@
+{
+  "name": "zteste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "https://victti-dev.com.br",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --no-warnings index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
